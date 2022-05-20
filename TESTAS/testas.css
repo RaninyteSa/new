@@ -1,0 +1,159 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 0;
+    margin-top: 10%;
+}
+
+#container {
+      width: 100vh;
+      height: 300vh;
+      top: 10px;
+      left: 10px;
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      align-content: center;
+      align-self: center;
+      position: relative;
+}
+#cont, #cont-1, #cont-2, #cont-3 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 140px;
+    width: 140px;
+    background-color: pink;
+    color: pink;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 800;
+}
+#cont-1 {
+    background-color: aquamarine;
+    color: aquamarine;
+}
+#cont-2 {
+    background-color: yellow;
+    color: yellow;
+    
+}
+#cont-3 {
+    background-color: rgb(50, 224, 65);
+    color:  rgb(50, 224, 65);
+}
+.pav-1, .pav-2, .pav-3, .pav-4 {
+    height: 100px;
+    width: 100px;
+}
+
+.pav-1 {
+    top:20px;
+    left:20px;
+    background: no-repeat center/100%  url(cc-apple-pay-brands.svg);
+    justify-content: center;
+    align-items: center;
+}
+
+.pav-2 {
+    top:20px;
+    left: 80px;
+    background: no-repeat center/100% url(random-solid.svg);
+    justify-content: center;
+    align-items: center;
+}
+
+.pav-3 {
+    background: no-repeat center/100% url(university-solid.svg);
+    justify-content: center;
+    align-items: center;
+}
+
+.pav-4 {
+    background: no-repeat center/100% url(users-solid\ \(1\).svg);
+    justify-content: center;
+    align-items: center;
+}
+
+.bubl, .bubl-1, .bubl-2, .bubl-3 {
+    display: flex;
+    position: relative;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 50% 50%;
+    height: 30px;
+    width: 30px;
+    background-color: white;
+}
+
+.bubl {
+    border: 8px solid pink;
+    left:-110px;
+    top:-60px;
+}
+.bubl-1 {
+    border: 8px solid aquamarine;
+    left:-110px;
+    top:-60px;
+}
+.bubl-2 {
+    border: 8px solid yellow;
+    left:-110px;
+    top:-60px;
+}
+.bubl-3 {
+    border: 8px solid rgb(50, 224, 65);
+    left:-110px;
+    top:-60px;
+}
+#container-2 {
+      width: 100vh;
+      gap: 10px 10px;
+      height: 300vh;
+      top: 240px;
+      left: -800px;
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      align-content: center;
+      align-self: center;
+      position: relative;
+}
+.text-1 {
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 25px;
+    font-weight: 800;
+    color: orangered;
+}
+.text-2 {
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 25px;
+    font-weight: 800;
+    color: orangered;
+    
+}
+.text-3 {
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 25px;
+    font-weight: 800;
+    color: orangered;
+}
+.text-4 {
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 25px;
+    font-weight: 800;
+    color: orangered;
+}
+
+.main, .main-1, .main-2, .main-3 {
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: smaller;
+    line-height: 45px;
+
+}
