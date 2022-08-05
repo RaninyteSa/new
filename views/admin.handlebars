@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            background-color: black;
+            color: antiquewhite;
+        }
+    </style>
+</head>
+<body>
+    <div class="container bg-black">
+    {{#if message}}
+        <div class="alert alert-{{status}}">
+            {{message}}
+        </div>
+    {{/if}}
+    <table class="table table-hover">
+        <thead>
+            <tr>
+                <th style="color: white ;">Vardas</th>
+                <th style="color: white ;">Pavared</th>
+                <th style="color: white ;">Adresas</th>
+                <th style="color: white ;">Numeris</th>
+                <th style="color: white ;">El. paštas</th>
+                <th style="color: white ;">Id</th>
+                <th></th>
+            </tr>
+        </thead>
+        <tbody>
+            {{#each users}}
+                <tr>
+                    <td style="color: white ;">{{this.name}}</td>
+                    <td style="color: white ;">{{this.lastName}}</td>
+                    <td style="color: white ;">{{this.adress}}</td>
+                    <td style="color: white ;">{{this.phone}}</td>
+                    <td style="color: white ;">{{this.email}}</td>
+                    <td style="color: white ;">{{this.idIs}}</td>
+                    <td>
+                        
+                    </td>
+                </tr>
+            {{/each}}
+        </tbody>
+    </table>
+</div>
+<script>
+    {{!-- console.log(window.location.href)
+    setTimeout(() => window.location = '/admin', 3000) --}}
+</script> 
+</body>
+</html>

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body style="background-color: black; margin-top: 175px;">
+<div class="container">
+  <form class="w-25 m-auto"  method="POST" >
+    <h1 class="h3 mb-3 fw-normal" style="color: white;">Redaguoti</h1>
+
+    {{#if message}}
+        <div class="alert alert-{{status}}">{{{message}}}</div>
+    {{/if}}
+
+    <div class="form-floating mb-2" >
+      <input type="text" name="name" class="form-control" placeholder="Enter your name" value="{{name}}">
+      <label>Your name</label>
+    </div>
+    <div class="form-floating mb-2">
+      <input type="text" name="lastName" class="form-control" placeholder="name@example.com" value="{{email}}">
+      <label>Last name</label>
+    </div>
+    <div class="form-floating mb-2">
+      <input type="text" name="adress" class="form-control" placeholder="gbvjncvg 0-2" value="{{password}}">
+      <label>adress</label>
+          <div class="form-floating mb-2">
+      <input type="text" name="phone" class="form-control" placeholder="65654635" value="{{password}}">
+      <label>Phone</label>
+          <div class="form-floating mb-2">
+      <input type="email" name="email" class="form-control" placeholder="gbcg@ggfch.hv" value="{{password}}">
+      <label>email</label>
+          <div class="form-floating mb-2">
+      <input type="text" name="idIs" class="form-control" placeholder="2541544515634" value="{{password}}">
+      <label>Id</label>
+    </div>
+    <button class="w-100 btn btn-lg btn-muted" style="color: black; background-color:rgb(94, 255, 0)" type="submit">Redaguoti</button>
+  </form>
+</div> 
+</body>
+</html>
